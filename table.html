@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            border: 2px solid #2E5797;
+
+            font-family: Kaiti;
+
+            border-collapse: collapse;
+        }
+
+        tr:nth-child(odd) {
+            background-color: #D8E3F4;
+        }
+
+        th, td {
+            width: 100px;
+            height: 30px;
+            border: 2px solid #9DBEEE;
+        }
+        
+        th {
+            padding: 5px 10px;
+
+            font-size: 25px;
+            
+            background-color: #2E5797;
+            color: #fff;
+        }
+
+        td {
+            font-size: 20px;
+            text-align: center;
+        }
+
+        .time {
+            font-size: 25px;
+            font-weight: bold;
+
+            background-color: #8FABDD;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th></th>
+            <th>星期一</th>
+            <th>星期二</th>
+            <th>星期三</th>
+            <th>星期四</th>
+            <th>星期五</th>
+        </tr>
+        <tr>
+            <td rowspan="4" class="time">上午</td>
+            <td>语文</td>
+            <td>数学</td>
+            <td>语文</td>
+            <td>英语</td>
+            <td>语文</td>
+        </tr>
+        <tr>
+            <td>数学</td>
+            <td>英语</td>
+            <td>英语</td>
+            <td>物理</td>
+            <td>数学</td>
+        </tr>
+        <tr>
+            <td>英语</td>
+            <td>语文</td>
+            <td>生物</td>
+            <td>数学</td>
+            <td>化学</td>
+        </tr>
+        <tr>
+            <td>化学</td>
+            <td>物理</td>
+            <td>化学</td>
+            <td>英语</td>
+            <td>生物</td>
+        </tr>
+        <tr>
+            <td rowspan="2" class="time">下午</td>
+            <td>物理</td>
+            <td>化学</td>
+            <td>物理</td>
+            <td>化学</td>
+            <td>地理</td>
+        </tr>
+        <tr>
+            <td>体育</td>
+            <td>音乐</td>
+            <td>美术</td>
+            <td>体育</td>
+            <td>历史</td>
+        </tr>
+    </table>
+</body>
+</html>
